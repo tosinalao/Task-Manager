@@ -1,6 +1,5 @@
-
 body {
-    font-family: 'Merriweather', serif; /* Set font to Merriweather */
+    font-family: 'Merriweather', serif;
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
@@ -70,24 +69,22 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 15px; /* Add margin to the bottom of each task */
-    padding-right: 20px; /* Add padding to the right of the table */
+    margin-bottom: 15px;
+    padding-right: 20px;
 }
 
-.task-html.completed {
+.task-html.completed span {
     text-decoration: line-through;
 }
 
-/* Style the task-actions */
 .task-actions {
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
 
-/* Style the mark-as-complete and remove buttons */
 .task-actions button {
-   padding: 6px; /* Adjust the padding for smaller buttons */
+   padding: 6px;
    background-color: #d9d9d9;
    color: #000000;
    text-align: center;
@@ -104,15 +101,13 @@ ul {
 .task-actions button:hover {
     background: #bbb;
     color: #FFF;
-
 }
 
-/* Add space between buttons */
 .task-actions button + button {
     margin-left: 10px;
 }
 
 body {
     background-color: #192841;
-    color: black; /* Set text color to white for better visibility */
+    color: black;
 }
