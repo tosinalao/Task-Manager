@@ -1,0 +1,118 @@
+
+body {
+    font-family: 'Merriweather', serif; /* Set font to Merriweather */
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #555;
+}
+
+input,
+select {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.status-options {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.status-options input {
+    margin-right: 5px;
+}
+
+.submitBtn {
+    background-color: #192841;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-html {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px; /* Add margin to the bottom of each task */
+    padding-right: 20px; /* Add padding to the right of the table */
+}
+
+.task-html.completed {
+    text-decoration: line-through;
+}
+
+/* Style the task-actions */
+.task-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* Style the mark-as-complete and remove buttons */
+.task-actions button {
+   padding: 6px; /* Adjust the padding for smaller buttons */
+   background-color: #d9d9d9;
+   color: #000000;
+   text-align: center;
+   font-size: 12px;
+   cursor: pointer;
+   transition: 0.3s;
+   font-family: Verdana, Geneva, sans-serif;
+   font-weight: bold;
+   border: none;
+   outline: none;
+   margin-left: 15px;
+}
+
+.task-actions button:hover {
+    background: #bbb;
+    color: #FFF;
+
+}
+
+/* Add space between buttons */
+.task-actions button + button {
+    margin-left: 10px;
+}
+
+body {
+    background-color: #192841;
+    color: black; /* Set text color to white for better visibility */
+}
