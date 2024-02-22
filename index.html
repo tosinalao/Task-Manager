@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap">
+    <script src="https://kit.fontawesome.com/29ee0bc57e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <form id="task-form">
+            <label for="title-of-task">Task</label>
+            <input type="text" id="title-of-task" autocomplete="off" placeholder="Enter your task...">
+            <label for="priority-of-task">Priority</label>
+            <select name="priority-of-task" id="priority-of-task">
+                <option value="">Select priority</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+            <label>Status</label>
+            <div class="status-options">
+                <input type="radio" class="status-of-task" name="status-of-task" value="pending" id="pending">
+                <label for="pending">Pending</label>
+                <input type="radio" class="status-of-task" name="status-of-task" value="completed" id="completed">
+                <label for="completed">Completed</label>
+            </div>
+            <button class="submitBtn" type="submit"><i class="fas fa-plus"></i> Add Task</button>
+        </form>
+        <ul id="array_for_tasks"></ul>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
